@@ -379,9 +379,11 @@ h3 {
   text-align: center;
 }
 
-.hide-on-mobile {
-  /* used if you want to hide one card on small screens */
+/* Hide elements only on small screens */
+@media (max-width: 700px) {
+  .hide-on-mobile { display: none !important; }
 }
+
 
 /* ============================
    Booking steps
