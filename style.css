@@ -566,7 +566,7 @@ h3 {
 }
 /* Fix: clicking Home (#home) gets covered by header/logo */
 #home{
-  scroll-margin-top: 100px;
+  scroll-margin-top: 75px;
 }
 
 /* Extra breathing room so the headline never tucks under the logo */
